@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cocktail Explorer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Cocktail Explorer</h1>
+  <div id="cocktailList"></div>
+</div>
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <p id="modalIngredients"></p>
+    <div id="comments"></div>
+    <form id="commentForm">
+      <input type="text" id="commentInput" placeholder="Write a comment...">
+      <button type="submit">Comment</button>
+    </form>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
